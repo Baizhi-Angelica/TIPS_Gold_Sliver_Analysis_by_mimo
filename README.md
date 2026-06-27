@@ -15,3 +15,9 @@
 - `reports/data/YYYY-MM-DD.json`
 
 如果希望报告里的文字总结由 OpenAI 生成，把 `.env.example.bat` 复制为 `.env.bat`，填入 `OPENAI_API_KEY`。不配置也可以运行，会使用本地规则生成总结。
+
+## 在线预览
+
+如果需要预览生成好的样子，可以下载 `reports/latest.html` 打开预览，或直接点击下方链接在线查看：
+
+[在线预览 latest.html](https://raw.githubusercontent.com/Baizhi-Angelica/TIPS_Gold_Sliver_Analysis_by_mimo/refs/heads/main/reports/latest.html)
