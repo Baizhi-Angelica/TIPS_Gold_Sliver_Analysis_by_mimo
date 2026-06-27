@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import py_compile; py_compile.compile\\('src/commodity_report.py', doraise=True\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import webbrowser; webbrowser.open\\('reports/latest.html'\\)\")",
+      "Bash(gh auth *)"
+    ]
+  }
+}
